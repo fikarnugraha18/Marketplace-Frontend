@@ -15,7 +15,7 @@ export default function Navbar({ onSearch }: any) {
 
     <div className="w-full border-b bg-white">
 
-      <div className="max-w-7xl mx-auto px-4 md:px-6 py-4 flex flex-wrap items-center gap-3">
+      <div className="max-w-7xl mx-auto px-4 md:px-6 py-4 flex flex items-center gap-3">
 
         <h1
           onClick={() => navigate("/")}
@@ -26,7 +26,7 @@ export default function Navbar({ onSearch }: any) {
 
         <form
           onSubmit={handleSearch}
-          className="flex flex-1 min-w-0 max-w-xl"
+          className="flex flex-1 max-w-[300px] sm:max-w-xl"
         >
 
           <input
