@@ -15,7 +15,7 @@ export default function Navbar({ onSearch }: any) {
 
     <div className="w-full border-b bg-white">
 
-      <div className="max-w-7xl mx-auto px-4 md:px-6 py-4 flex flex-wrap items-center gap-3 overflow-hidden">
+      <div className="max-w-7xl mx-auto px-4 md:px-6 py-4 flex flex-wrap items-center gap-3">
 
         <h1
           onClick={() => navigate("/")}
