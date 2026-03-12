@@ -64,7 +64,7 @@ export default function Home() {
       <Banner />
 
       {/* MAIN CONTENT */}
-      <main className="flex-1 w-full max-w-7xl mx-auto px-4 md:px-6 py-6">
+      <main className="flex-1 w-full max-w-7xl mx-auto px-4 md:px-6 py-6 overflow-hidden">
 
         {/* TITLE */}
         <h1 className="text-2xl md:text-3xl font-bold mb-6">
@@ -72,7 +72,7 @@ export default function Home() {
         </h1>
 
         {/* CATEGORY BAR */}
-        <div className="flex gap-3 mb-6 overflow-x-auto pb-2">
+        <div className="flex gap-3 mb-6 overflow-x-auto pb-2 w-full">
 
           <button className="px-4 py-1 bg-green-500 text-white rounded-lg whitespace-nowrap">
             All
